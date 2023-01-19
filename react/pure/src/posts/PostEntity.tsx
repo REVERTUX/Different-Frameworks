@@ -38,7 +38,7 @@ const PostEntity = () => {
     if (!post) return null
 
     return <div>
-        <Link to='/'>Return</Link>
+        <Link to='/posts'>Return</Link>
         <div className="post-entity">
             <div>{user ? `${user.name}` : 'loading...'}</div>
             <div>{post.title}</div>
