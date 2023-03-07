@@ -5,7 +5,7 @@ export interface UserI {
   id: string,
   name: string,
   username: string,
-  emal: string,
+  email: string,
 };
 
 export const load = (async ({ fetch, params }) => {
