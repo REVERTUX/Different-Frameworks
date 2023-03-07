@@ -2,7 +2,7 @@ export interface UserI {
     id: string,
     name: string,
     username: string,
-    email: string,
+    emal: string,
 }
 
 export const getUser = (id: string): Promise<UserI> => {
