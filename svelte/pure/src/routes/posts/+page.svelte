@@ -8,7 +8,6 @@
 <ul class="posts">
 	{#each data.items as { body, id, title, userId } (id)}
 		<Post {body} {id} {title} />
-		<!-- <li><a href={`/posts/${item.id}`}>{item.title}</a></li> -->
 	{/each}
 </ul>
 

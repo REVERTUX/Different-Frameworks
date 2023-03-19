@@ -1,0 +1,9 @@
+<div>
+    <a routerLink="/posts">Return</a>
+    
+    <div class="post-details" *ngIf="post">
+        <div>{{user ? user.name : 'loading...'}}</div>
+        <div>{{post.title}}</div>
+        <div>{{post.body}}</div>
+    </div>
+</div>
